@@ -1,0 +1,43 @@
+.svg-footer{
+    margin-bottom: -35px !important;
+}
+.content-logo-footer{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.logo-invert{
+    width: 31vw;
+}
+.footer{
+    position: relative;
+
+}
+.footer-text{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    font-size: 2Vw;
+    padding: 2%;
+    padding-right:0;
+}
+.footer-link{
+    z-index: 2;
+    position: absolute;
+    font-size: 2.5vw;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.abonnement-container{
+    position: absolute;
+    font-size: 3Vw;
+    padding: 3%;
+    width: 100%;
+    margin-top: -5%;
+}
+@media only screen and (max-width: 360px){
+    .abonnement-container{
+        font-size: 5Vw;
+    }
+}

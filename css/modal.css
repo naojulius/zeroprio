@@ -1,0 +1,130 @@
+.modal-dialog{
+	padding: 69px 10px 0 10px;
+}
+.modal-content{
+	border-radius: 10px;
+}
+.modal-text{
+	text-align: center;
+	font-size: 13px;
+	padding-top: 9px !important;
+}
+.modal-text-link{
+	color: var(--theme-color-red) !important;
+	cursor: pointer;
+}
+
+.modal-text-link:hover{
+	text-decoration: none;
+	color: var(--theme-color-red)!important;
+}
+.modal-link{
+	color: grey;
+}
+.modal-link:hover{
+	text-decoration: none;
+}
+.padding-top-3{
+	padding-top:3%!important;
+}
+.modal-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: grey;
+  background-color:transparent;
+  background-clip: padding-box;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.modal-form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.modal-form-control:focus {
+  color: var(--theme-grey);
+  background-color: transparent;
+  border-color: rgb(107, 71, 71);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.75);
+}
+
+.modal-form-control::-webkit-input-placeholder {
+  color: var(--theme-grey);;
+  opacity: 1;
+}
+
+.modal-form-control::-moz-placeholder {
+  color: var(--theme-grey);;
+  opacity: 1;
+}
+
+.modal-form-control:-ms-input-placeholder {
+  color: var(--theme-grey);;
+  opacity: 1;
+}
+
+.modal-form-control::-ms-input-placeholder {
+  color: var(--theme-grey);;
+  opacity: 1;
+}
+
+.modal-form-control::placeholder {
+  color: var(--theme-grey);;
+  opacity: 1;
+}
+
+.modal-form-control:disabled, .modal-form-control[readonly] {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.modal-link-footer-container{
+	display: flex;
+	justify-content: center;
+}
+.sign-up-button-container{
+	padding-bottom: 30px;
+}
+.text-theme-grey{
+	color: var(--theme-grey);
+}
+.adjust-margin{
+	margin-top: 1%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.adjust-padding{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 28px;
+}
+.to-upper{
+	margin-bottom: -1%;
+}
+.contact-input{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1%;
+}
+.contact-submit-btn{
+	padding-left: 36px!important;
+	padding-right: 36px!important;
+}
+.contact-textarea{
+	margin-top: 0px;
+    margin-bottom: 11px;
+    height: 151px;
+    margin-left: 2%;
+    width: 95%;
+	border-radius: 21px;
+	padding-left: 3%;
+}
+#login-form, #signup-form{
+	padding: 0 10px 0 10px;
+}

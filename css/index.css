@@ -1,0 +1,216 @@
+:root{
+    --theme-grey: #3a3737;
+    --theme-grey-1: #3a3737;
+    --theme-text-color-red: #ff0048;
+    --theme-color-red: #ff0048;
+}
+
+.text-theme-grey{
+    color: var(--theme-grey);
+}
+.text-theme-grey-1{
+    color: gray !important;
+}
+body{
+    font-family: lato-regular;
+}
+@font-face{
+  font-family: "lato-black";
+  src: url("../font/Lato-Black.ttf") format('truetype');
+}
+@font-face{
+  font-family: "lato-light";
+  src: url("../font/Lato-Light.ttf") format('truetype');
+}
+@font-face{
+  font-family: "heavy-italic";
+  src: url("../font/Lato-HeavyItalic.ttf") format('truetype');
+}
+@font-face{
+  font-family: "lato-bold";
+  src: url("../font/Lato-Bold.ttf") format('truetype');
+}
+@font-face{
+  font-family: "lato-regular";
+  src: url("../font/Lato-Regular.ttf") format('truetype');
+}
+@font-face{
+  font-family: "lato-bolditalic";
+  src: url("../font/Lato-BoldItalic.ttf") format('truetype');
+}
+.lato-light{
+    font-family: lato-light!important;
+}
+.heavy-italic{
+    font-family: heavy-italic!important;
+}
+.lato-bold{
+    font-family: lato-bold !important;
+}
+.lato-regular{
+    font-family: lato-regular !important;
+}
+.lato-bolditalic{
+    font-family: lato-bolditalic !important;
+}
+.bg-white{
+    background-color: white;
+}
+.logo-red{
+    width: 150px;
+    height: auto;
+}
+
+nav.main-header{
+    box-shadow: 0 0 0 0.15rem rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+div.search-field-container{
+    background: #76848f75;
+    border-radius: 0.6rem;
+}
+.center{
+    text-align: center;
+}
+.underlined-white{
+    border-bottom: 7px solid white;
+}
+.underlined-gray{
+    border-bottom: 7px solid #c5ced6b8;
+}
+.alert-link-container{
+    padding-top: 5px;
+}
+
+.text-theme-secondary{
+    color: #606060 !important;
+}
+div.t-line{
+    height: 8px !important;
+    background-color: var(--theme-color-red);
+    width: 100%;
+    border-radius: 1rem;
+}
+div.t-line-side{
+    height: 40%;
+    width: 100%;
+}
+div.t-line-container{
+    padding: 1%;
+}
+div.whitness-card{
+    box-shadow: 0px 0px 3px 1px #80808061;
+    border-radius: 10px;
+    height: 400px !important;
+    opacity: 1;
+}
+img.whitness-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5rem;
+    border: 1.3px solid var(--theme-color-red);
+}
+
+.right-line{
+        border-right: 1px solid var(--theme-color-red);
+}
+.left-line{
+     border-left: 1px solid var(--theme-color-red);
+}
+.p-right-10{
+    padding-right: 5px;
+}
+.p-left-10{
+    padding-left: 10px;
+}
+.w-60{
+    width: 60%;
+}
+.w-48{
+    width: 49%;
+}
+.contact-link{
+    text-decoration: none;
+}
+.contact-link:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .logo-red{
+      width: 90px;
+      height: auto;
+    }
+  .landing{
+      padding: 20px;
+      background-image: url("../images/investir-dans-immobilier.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: right;
+  }
+  div.whitness-card{
+      width: auto;
+  }
+    .desktop-padding-cards{
+        padding: 5%;
+    }
+    .slick-prev {
+        left: 8px !important;
+        z-index: 1
+    }
+    .slick-next
+    {
+        right: 9px !important; 
+    }
+    .legend-container{
+        color: white;
+    }
+} 
+@media only screen and (min-width: 780px) and (max-width: 1000px){
+    .search-field-container{
+        width: 57% !important;
+        background-color: #b0969e;
+    }
+}
+@media only screen and (min-width: 780px) {
+    .landing{
+        height: 750px;
+        background-image: url("../images/investir-dans-immobilier.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-x: right;
+        background-size: cover; 
+        padding: 5%;
+    }
+    .search-field-container{
+        width: 38%;
+        background-color: #b0969e;
+    }
+    .desktop-padding-cards{
+        padding: 5%;
+    }
+    .slick-prev {
+    left: 35px !important; 
+    }
+    .slick-next
+    {
+         right: 35px !important; 
+    }   
+}
+
+.input-group-text{
+    margin-left: -47px !important;
+    background: transparent !important;
+    border: none !important;
+}
+.slick-dots{display: none !important;}
+
+@media only screen and (min-width:1280px){
+    #submit_form {
+        padding-left: 70px;
+        padding-right: 39px;
+    }
+    .landing{
+        margin-top: -39px !important;
+    }
+}

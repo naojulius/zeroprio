@@ -1,0 +1,27 @@
+.legend-container{
+    position: absolute !important;
+    font-size: 2.5vw;
+    color: #3a3737;
+    left: 48%;
+    text-align: center;
+    margin-top: 21px;
+}
+@media only screen and (max-width: 1288px) and (min-width: 998px){
+    .legend-container{
+        left: 49%;
+        margin-top: 133px;
+        font-size: 29px;
+    }
+}
+@media only screen and (max-width: 998px){
+    .legend-container{
+       left: 56%;
+        text-align: center;
+        margin-top: 214px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .legend-container{
+        display: none;
+    }
+}
