@@ -1,5 +1,8 @@
 .svg-footer{
-    margin-bottom: -35px !important;
+    margin-bottom: -34px !important;
+}
+.svg-footer-container{
+    padding-top: 6px !important;
 }
 .content-logo-footer{
     position: absolute;
