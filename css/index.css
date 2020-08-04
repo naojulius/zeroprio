@@ -8,8 +8,14 @@
 .text-theme-grey{
     color: var(--theme-grey);
 }
+.w-90{
+    width: 90% !important;
+}
 .text-theme-grey-1{
     color: gray !important;
+}
+.modal-sm-souscription{
+    width: 28% !important;
 }
 body{
     font-family: lato-regular;
@@ -118,10 +124,10 @@ img.whitness-img{
      border-left: 1px solid var(--theme-color-red);
 }
 .p-right-10{
-    padding-right: 5px;
+    padding-right: 23px;
 }
 .p-left-10{
-    padding-left: 10px;
+    padding-left: 27px;
 }
 .w-60{
     width: 60%;
@@ -145,8 +151,10 @@ img.whitness-img{
       padding: 20px;
       background-image: url("../images/investir-dans-immobilier.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: right;
+    background-size: cover;
+    background-position-y: -91px;
+    height: 90vh;
+
   }
   div.whitness-card{
       width: auto;
@@ -174,12 +182,11 @@ img.whitness-img{
 }
 @media only screen and (min-width: 780px) {
     .landing{
-        height: 750px;
+        height: 757px;
         background-image: url("../images/investir-dans-immobilier.jpg");
         background-repeat: no-repeat;
-        background-position: bottom;
-        background-position-x: right;
-        background-size: cover; 
+  background-size: cover;
+    background-position-y: -91px;
         padding: 5%;
     }
     .search-field-container{
@@ -213,4 +220,10 @@ img.whitness-img{
     .landing{
         margin-top: -39px !important;
     }
+}
+@media only screen and (max-width:480px){
+    .flat-margin-top{
+        padding-top: 0 !important;
+        margin-top: -28px;
+    }    
 }

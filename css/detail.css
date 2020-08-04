@@ -1,0 +1,152 @@
+:root{
+    --theme-grey: #3a3737;
+    --theme-grey-1: #3a3737;
+    --theme-text-color-red: #ff0048;
+    --theme-color-red: #ff0048;
+}
+.create-detail-alert-container{
+	display:flex;
+	padding: 50px 32px 50px 34px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.btn-danger-outline-white{
+	padding-left:2%; 
+} 
+.btn-danger-outline-white > i{
+	margin-right: 2%;
+} 
+.ref-text{
+	position: absolute;
+}
+.position-relative{
+	position: relative;
+}
+.detail-top-legend{
+	position: absolute;
+	top: -9%;
+}
+.margin-bottom-3{
+	margin-bottom: 33px;
+}
+.detail-carousel-section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.detail-more-card{
+	display: flex;
+	margin: 0;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.detail-more-card >div{
+	width: 25%;
+	padding: 0px 10px 0px 10px;
+}
+.annonce-card-content{
+	padding: 0px 10px 0px 10px;
+	display: flex;
+	justify-content: center;
+}
+.annonce-card-content>div{
+	width: 17rem;
+}
+.button-group-center{
+	justify-content: center;
+}
+.button-card-container > button{
+	width: 80px;
+	text-align: center;
+	font-size: 13px;
+	padding: 7px 2% 7px 2%;
+}
+.button-card-container{
+	padding: 1%;
+}
+.card-small-text{
+	font-size: 13px;
+}
+.annonces-details-price{
+	color: #ff0048;
+}
+.group-center-margin{
+	margin-left: 4%;
+}
+
+
+/* .justify-alert-container{
+	padding: 27px 32px 50px 34px !important;
+	margin-top: 15px;
+}
+.alert-container{
+	position: relative;
+}
+.alert-container > small{
+	position: absolute;
+	top: 49px;
+	left: 0;
+	font-size: 1.03vw;
+}
+.section-title{
+	position:absolute;
+	left: 0;
+	top: -42px;
+}
+.section-title-legend{
+	font-size: 2.6vw;
+}
+.section-bd-caroussel{
+	padding: 9px 3% 13px 1%;;
+}
+.section-bd-caroussel > img{
+	width: 100%;
+	height: auto;
+}
+.section-cards{
+	border-bottom: solid 2px gray;
+	box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.7);
+	width: 23%;
+	margin-top: 7px;
+	margin-right: 2%;
+	background: lightgray;
+}
+.cards-header{
+	text-align: right;
+	font-size: 1.5vw;
+	padding: 9px 1% 19px;
+	border-bottom: solid 2px gray;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.main-legend{
+	color: #ff0048;
+	font-size: 2.5vw;
+}
+.small-text{
+	font-size: 0.9vw;
+}
+.cards-body{
+	margin: 4%;
+}
+.cards-align{
+	margin: 53px 2% 0 2%;
+}
+.cards-align > div{
+	margin: 1%;
+	width: 21rem;
+}
+.cards-button-group{
+	margin-left: -5px;
+}
+.cards-button-group > button{
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+} */
+
+@media only screen and (max-width: 780px) {
+.detail-more-card >div{
+	width: 100%;
+}
+}

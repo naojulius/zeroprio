@@ -1,8 +1,12 @@
 .svg-footer{
-    margin-bottom: -34px !important;
+   transform: translateY(8px);
 }
 .svg-footer-container{
     padding-top: 6px !important;
+}
+.mini-footer, .mini-footer-text-container, .mini-footer-text, .mini-footer-link
+, .small-content-logo-footer{
+    display: none;
 }
 .content-logo-footer{
     position: absolute;
@@ -10,31 +14,30 @@
     top: 50%;
 }
 .logo-invert{
-    width: 31vw;
+    width: 22vw;
 }
 .footer{
     position: relative;
-
 }
 .footer-text{
     position: absolute;
-    right: 0;
-    top: 40%;
-    font-size: 2Vw;
+    right: 6%;
+    top: 46%;
+    font-size: 1.5Vw;
     padding: 2%;
-    padding-right:0;
+    padding-right: 0;
 }
 .footer-link{
     z-index: 2;
     position: absolute;
-    font-size: 2.5vw;
-    top: 102%;
+    font-size: 1.5vw;
+    top: 92%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .abonnement-container{
     position: absolute;
-    font-size: 3Vw;
+    font-size: 2Vw;
     padding: 3%;
     width: 100%;
     margin-top: -5%;
@@ -42,5 +45,25 @@
 @media only screen and (max-width: 360px){
     .abonnement-container{
         font-size: 5Vw;
+    }
+}
+@media only screen and (max-width: 482px){
+    .footer{
+        display: none;
+        height: 200px;
+    }
+    .min-footer{
+        display: block;
+        background-color:#ff0048 ;
+    }
+    .mini-footer, .mini-footer-text-container, .mini-footer-text, .mini-footer-link
+, .small-content-logo-footer{
+    display: block;
+}
+    .mini-footer-text{
+        font-size: 3vw;
+    }
+    .mini-footer-link{
+        font-size: 3vw;
     }
 }
