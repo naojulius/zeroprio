@@ -36,7 +36,7 @@
 }
 .detail-more-card{
 	display: flex;
-	margin: 0;
+	margin-top: 4em;
 	width: 100%;
 	flex-wrap: wrap;
 }
@@ -73,80 +73,85 @@
 .group-center-margin{
 	margin-left: 4%;
 }
-
-
-/* .justify-alert-container{
-	padding: 27px 32px 50px 34px !important;
-	margin-top: 15px;
+.card-link-text-container{
+	text-decoration: underline;
+	padding-top: 10px;
+	margin-left: 4%;
 }
-.alert-container{
-	position: relative;
+.carousel-top-legend-container{
+	padding-left: 2%;
+	font-size: 2vw;
 }
-.alert-container > small{
-	position: absolute;
-	top: 49px;
-	left: 0;
-	font-size: 1.03vw;
-}
-.section-title{
-	position:absolute;
-	left: 0;
-	top: -42px;
-}
-.section-title-legend{
-	font-size: 2.6vw;
-}
-.section-bd-caroussel{
-	padding: 9px 3% 13px 1%;;
-}
-.section-bd-caroussel > img{
+.detail-carousel-container{
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	height: auto;
+	padding: 2%;
 }
-.section-cards{
-	border-bottom: solid 2px gray;
-	box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.7);
-	width: 23%;
-	margin-top: 7px;
-	margin-right: 2%;
-	background: lightgray;
+.carousel-main-container{
+	width: 70%;
+	padding: 0 1% 2% 1%;
 }
-.cards-header{
+.carousel-text-container{
+	background: lightgrey;
+	padding: 0 1%;
+	width: 30%;
+}
+.text-card-container-header{
 	text-align: right;
-	font-size: 1.5vw;
-	padding: 9px 1% 19px;
-	border-bottom: solid 2px gray;
-	margin-left: 3%;
-	margin-right: 3%;
+	padding: 2% 5% 0 0%;
+	border-bottom: solid gray;
 }
-.main-legend{
+.main-header-text{
 	color: #ff0048;
-	font-size: 2.5vw;
+	font-size:3vw;
 }
-.small-text{
-	font-size: 0.9vw;
+.text-card-small{
+	transform: translateY(-50%);
+	color: #3a3737;
 }
-.cards-body{
-	margin: 4%;
+.all-carousel-img{
+	display: flex;
+	flex-direction: row;
+	width: 57%;
+	margin: 0%;
 }
-.cards-align{
-	margin: 53px 2% 0 2%;
+.carousel-img-element{
+	padding: 2% 3% 3% 0%;
 }
-.cards-align > div{
+.carousel-img-element >img{
+	width: 100%;
+}
+.detail-carousel-button-group{
+	display: flex;
+	flex-direction: row;
+}
+.button-carousel-container{
 	margin: 1%;
-	width: 21rem;
 }
-.cards-button-group{
-	margin-left: -5px;
-}
-.cards-button-group > button{
-	font-size: 15px;
-	text-align: center;
-	margin: auto;
-} */
-
 @media only screen and (max-width: 780px) {
 .detail-more-card >div{
 	width: 100%;
+	}
+.carousel-top-legend-container{
+	font-size: 5vw;
+	}
 }
+@media only screen and (max-width: 350px) {
+.carousel-top-legend-container{
+	font-size: 6vw;
+	}
+}
+@media only screen and (max-width: 936px) {
+	.ref-text{
+		position: static;
+	}
+	.detail-alert-container-legend{
+		width:100%;
+		text-align: center;
+	}
+	.create-detail-alert-container >a{
+	margin: auto;
+	margin-top: 15px;
+	}
 }

@@ -4,6 +4,10 @@
 .modal-content{
 	border-radius: 10px;
 }
+.modal_login{
+
+    max-width: 369px;
+}
 .modal-text{
 	text-align: center;
 	font-size: 13px;
@@ -18,12 +22,13 @@
 	text-decoration: none;
 	color: var(--theme-color-red)!important;
 }
-.modal-link{
-	color: grey;
+.modal-link {
+    color: #5b5353;
 }
 .modal-link:hover{
 	text-decoration: none;
 }
+
 .padding-top-3{
 	padding-top:3%!important;
 }

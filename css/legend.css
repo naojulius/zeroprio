@@ -1,10 +1,13 @@
 .legend-container{
     position: absolute !important;
-    font-size: 2.5vw;
-    color: #3a3737;
-    left: 48%;
-    text-align: center;
-    margin-top: 21px;
+font-size: 2vw;
+color: #3a3737;
+left: 53%;
+text-align: center;
+margin-top: 9%;
+}
+.carousel-container{
+    margin-top: -2% !important;
 }
 @media only screen and (max-width: 1288px) and (min-width: 998px){
     .legend-container{
@@ -15,9 +18,9 @@
 }
 @media only screen and (max-width: 998px){
     .legend-container{
-       left: 56%;
+       left: 57%;
         text-align: center;
-        margin-top: 214px;
+        margin-top: 200px;
     }
 }
 @media only screen and (max-width: 780px){

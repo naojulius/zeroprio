@@ -37,7 +37,7 @@
 }
 .select-items {
   position: absolute;
-  background-color: var(--theme-color-red);
+  background-color: #afa6a8;
   border: solid white 2px;
   border-radius: 20px;
   top: 100%;
@@ -64,17 +64,28 @@ h6{
   margin-left: 10%;
 }
 }
+
 @media only screen and (max-width: 1050px) {
   .wrapped {
   margin-left: 8%;
-}
+    }
 }
 @media only screen and (max-width: 766px) {
   .wrapped {
     margin-left: 31%;
   }
+  
 }
+
 #surface_min::placeholder{
   overflow: hidden !important;
   text-overflow: ellipsis !important;
+}
+@media only screen and (min-width: 767px) and (max-width: 780px) {
+  .select-selected{
+    padding-top: 5%;
+  }
+  .select-selected #type_bien{
+    padding-top: 2% !important;
+  }
 }

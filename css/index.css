@@ -15,7 +15,7 @@
     color: gray !important;
 }
 .modal-sm-souscription{
-    width: 28% !important;
+   /* width: 28% !important;*/
 }
 body{
     font-family: lato-regular;
@@ -43,6 +43,13 @@ body{
 @font-face{
   font-family: "lato-bolditalic";
   src: url("../font/Lato-BoldItalic.ttf") format('truetype');
+}
+@font-face{
+  font-family: "lato-Semibold";
+  src: url("../font/lato-Semibold.ttf") format('truetype');
+}
+.lato-semibold{
+    font-family: lato-semibold !important;
 }
 .lato-light{
     font-family: lato-light!important;
@@ -153,9 +160,19 @@ img.whitness-img{
       background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -91px;
-    height: 90vh;
+    height: 757px;
+     margin-bottom: -10% !important;
 
   }
+  .p-right-10 {
+    padding-right: 5px;
+}
+.p-left-10 {
+    padding-left: 10px;
+}
+.search-field-container, input{
+    font-size: 12px !important;
+}
   div.whitness-card{
       width: auto;
   }
@@ -188,16 +205,17 @@ img.whitness-img{
   background-size: cover;
     background-position-y: -91px;
         padding: 5%;
+        margin-bottom: 2%;
     }
     .search-field-container{
         width: 38%;
         background-color: #b0969e;
     }
     .desktop-padding-cards{
-        padding: 5%;
+        padding: 4%;
     }
     .slick-prev {
-    left: 35px !important; 
+    left: 28px !important; 
     }
     .slick-next
     {
@@ -221,9 +239,32 @@ img.whitness-img{
         margin-top: -39px !important;
     }
 }
+
 @media only screen and (max-width:480px){
     .flat-margin-top{
         padding-top: 0 !important;
         margin-top: -28px;
     }    
+}
+
+/******/
+@media only screen and (max-width: 766px){
+        .landing{
+            margin-bottom: -6%;
+        }
+        .texte_descr{
+          font-size: 12px;
+        }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px){
+        .landing{
+            margin-bottom: -6%;
+        }
+}
+
+@media only screen and (min-width: 1202px) and (max-width: 1200px){
+        .landing{
+            margin-bottom: -6%;
+        }
 }
