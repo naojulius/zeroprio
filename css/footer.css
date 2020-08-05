@@ -7,7 +7,7 @@
 .content-logo-footer{
     position: absolute;
     left: 0;
-    top: 60%;
+    top: 75%;
 }
 .logo-invert{
     width: 22vw;
@@ -20,8 +20,8 @@
 
 .footer-text{
     position: absolute;
-    right: 6%;
-    top: 60%;
+    right: 2%;
+    top: 67%;
     font-size: 1.25Vw;
     padding: 2%;
     padding-right: 0;
@@ -30,7 +30,7 @@
     z-index: 2;
     position: absolute;
     font-size: 1.25vw;
-    top: 102%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -39,7 +39,7 @@
     font-size: 2Vw;
     padding: 3%;
     width: 100%;
-    margin-top: -5%;
+    margin-top: -3%;
 }
 @media only screen and (max-width: 360px){
     .abonnement-container{

@@ -8,10 +8,16 @@ $("#contact").on('click', function () {
 $('#contact').on('hidden.bs.modal', function () {
     $(this).find('#contact-form').trigger('reset');
 });
+
 $("#modal-popup").on('click', function () {
     $("#sign-up").modal();
     $("#log-in").modal("toggle");
 });
+
+$("#modal-popup2").on('click', function () {
+    $("#sign-up").modal();
+});
+
 $('#log-in').on('hidden.bs.modal', function () {
     $(this).find('#login-form').trigger('reset');
 });

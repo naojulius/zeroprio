@@ -18,7 +18,7 @@
    /* width: 28% !important;*/
 }
 body{
-    font-family: lato-regular;
+    font-family: "lato-regular";
 }
 @font-face{
   font-family: "lato-black";
@@ -40,6 +40,12 @@ body{
   font-family: "lato-regular";
   src: url("../font/Lato-Regular.ttf") format('truetype');
 }
+
+@font-face{
+  font-family: "lato-medium";
+  src: url("../font/Lato-Medium.ttf") format('truetype');
+}
+
 @font-face{
   font-family: "lato-bolditalic";
   src: url("../font/Lato-BoldItalic.ttf") format('truetype');
@@ -63,6 +69,9 @@ body{
 .lato-regular{
     font-family: lato-regular !important;
 }
+.lato-medium{
+    font-family: "lato-medium" !important;
+}
 .lato-bolditalic{
     font-family: lato-bolditalic !important;
 }
@@ -70,7 +79,7 @@ body{
     background-color: white;
 }
 .logo-red{
-    width: 150px;
+    width: 128px;
     height: auto;
 }
 
@@ -79,7 +88,7 @@ nav.main-header{
     z-index: 1;
 }
 div.search-field-container{
-    background: #76848f75;
+    background: #64011d4a;
     border-radius: 0.6rem;
 }
 .center{
@@ -122,6 +131,7 @@ img.whitness-img{
     width: 100px;
     border-radius: 5rem;
     border: 1.3px solid var(--theme-color-red);
+    object-fit: cover;
 }
 
 .right-line{
@@ -267,4 +277,9 @@ img.whitness-img{
         .landing{
             margin-bottom: -6%;
         }
+}
+
+#place, #surface_min, #prix_max {
+    border-radius: 100px;
+    padding: 8px 20px;
 }
