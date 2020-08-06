@@ -83,7 +83,7 @@ h6{
 }
 @media only screen and (min-width: 767px) and (max-width: 780px) {
   .select-selected{
-    padding-top: 5%;
+    padding-top: 2%;
   }
   .select-selected #type_bien{
     padding-top: 2% !important;
