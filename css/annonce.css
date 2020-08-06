@@ -115,40 +115,6 @@
 .dropdown-active-legend{
   color: var(--theme-color-red) !important;
 }
-@media only screen and (max-width: 600px){
-  .dropdown-container{
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-wrap: wrap;
-      flex-wrap: wrap;
-      width: inherit;
-      height: auto;
-      background-color: white;
-  }
-  .dropdown{
-    width: auto;
-  }
-  .dropdown-container>div{
-    width: inherit;
-  }
-  .dropdown-container>div>button{
-    width: inherit; 
-  }
-  .create-alert-container>a{
-    margin: auto;
-    margin-top: 20px;
-  }
-  .dropdown > button {
-    font-size: 10px;
-  }
-  .dropdown-line{
-    display: none;
-  }
-  .underline-red{
-    width: 100%;
-  }
-}
-
 .dropdown-menu{
   border-radius: 0rem !important;
   width: 100% !important;
@@ -161,4 +127,77 @@
   color: #fff !important;
   background-color:var(--theme-color-red) !important;
   font-family: lato-bold;
+}
+.dropdown-main-button-container{
+  display: none;
+}
+@media only screen and (max-width: 600px){
+  .underline-red{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 830px){
+  .dropdown-main-button-container{
+    display: block;
+    border: solid 2px white;
+    border-radius: 70px;
+    background: var(--theme-color-red);
+    width: 60px;
+    text-align: center;
+    padding: 9px;
+    font-size: 25px;
+    margin: 10px 0 24px 1%;
+  }
+  .dropdown-container{   
+  display: none;
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  position: absolute;
+  z-index: 98;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%);
+  box-shadow: 1px -1px 14px 3px lightgray;
+  border-radius: 11px;
+  }
+  .dropdown{
+  width: 100%;
+}
+.dropdown-container>div{
+  width: 100%;
+}
+.dropdown-container>div>button{
+  width: 100%;
+  background-color: white;
+  font-family: lato-bold;
+  color: gray;
+}
+.dropdown-container-line>div{
+  height: 4px;
+  background: #a69f9fc2;
+  border-top: 2px solid #e3dbdb;
+  border-bottom: 2px solid #e3dbdb;
+}
+.dropdown-container-red-line{
+  background: var(--theme-color-red)  !important;
+  border: none !important;
+  height: 3px !important;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.dropdown-line{
+  background: #afaeae7a;
+  border: none;
+  height: 3px;
+  width: 100%;
+  margin-top: 16px; 
+}
+
+.dropdown >button {
+  font-size: 20px;
+  border: none!important;
+  }
 }
