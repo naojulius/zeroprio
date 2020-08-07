@@ -20,6 +20,9 @@ $("#modal-popup2").on('click', function () {
 $("#phone-button").on('click', function () {
     $("#phone-box").modal();
 });
+$("#phone-button-2").on('click', function () {
+    $("#phone-box").modal();
+});
 
 $('#log-in').on('hidden.bs.modal', function () {
     $(this).find('#login-form').trigger('reset');
@@ -29,5 +32,9 @@ $('#sign-up').on('hidden.bs.modal', function () {
 });
 
 $('#abonnement').modal();
+
+$('.modal-close-abo').on('click', function () {
+    $('#abonnement').modal("toggle");
+});
 
 

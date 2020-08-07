@@ -28,6 +28,10 @@ body{
   src: url("../font/Lato-Light.ttf") format('truetype');
 }
 @font-face{
+  font-family: "lato-lightitalic";
+  src: url("../font/Lato-LightItalic.ttf") format('truetype');
+}
+@font-face{
   font-family: "heavy-italic";
   src: url("../font/Lato-HeavyItalic.ttf") format('truetype');
 }
@@ -68,6 +72,9 @@ body{
 @font-face{
   font-family: "lato-thin";
   src: url("../font/Lato-Thin.ttf") format('truetype');
+}
+.lato-lightitalic{
+    font-family: lato-lightitalic !important;
 }
 .lato-thin{
     font-family: lato-thin !important;
@@ -380,11 +387,18 @@ img.whitness-img{
 }  
 @media only screen and (min-width: 937px) and (max-width: 1107px){
     .footer-link{
-        top: 160% !important;
+        top: 184% !important;
+        font-size: 16px !important;
     }
     .footer-text {
         top: 84% !important;
+        font-size: 14px !important;
     }
+    .logo-invert {
+        width: 210px !important;
+        height: auto !important;
+    }
+
 }
 @media only screen and (min-width: 832px) and (max-width:  936px){
     .footer-link{
@@ -579,6 +593,7 @@ img.whitness-img{
 .page-wrap{
       max-width: 1400px;
       margin: 0 auto;
+      margin-top: 87px;
 }
 
 
