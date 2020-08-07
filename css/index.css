@@ -7,6 +7,9 @@
 .text-theme-grey{
     color: var(--theme-grey);
 }
+.text-theme-grey-2{
+    color: #3a3737;
+}
 .w-90{
     width: 90% !important;
 }
