@@ -266,7 +266,6 @@
 	margin-left: 66px;
 }
 .voir-plus{
-	z-index: 2;
 	position: absolute;
 	text-decoration: underline;
 }
@@ -393,6 +392,12 @@ padding-right: 3%
 	cursor: pointer;
 	font-weight: 600;
 	user-select: none;
+}
+#phone-button-2{
+ background-color: #f9f9f9 !important;
+}
+#phone-button{
+background-color: #f9f9f9 !important;
 }
 .abo-modal-body{
 	background-color: rgba(255, 255, 255, 0.9) !important;

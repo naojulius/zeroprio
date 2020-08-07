@@ -387,7 +387,7 @@ img.whitness-img{
 }  
 @media only screen and (min-width: 937px) and (max-width: 1107px){
     .footer-link{
-        top: 184% !important;
+        top: 160% !important;
         font-size: 16px !important;
     }
     .footer-text {
@@ -517,7 +517,7 @@ img.whitness-img{
         margin-top: -7% !important;
     }
     .logo-invert {
-        width: 150px !important;
+        width: 143px !important;
     }
 }
 @media only screen and (min-width: 741px ) and (max-width:  769px){

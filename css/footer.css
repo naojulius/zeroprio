@@ -58,7 +58,7 @@
         font-size:12px !important;
     }
     .footer-text{
-        top:104% !important;
+        top:173% !important;
         font-size:12px !important;
     }
     .abonnement-container {
@@ -87,6 +87,17 @@
         right: 4%; 
     } 
 } */
+
+/* @media only screen  and (max-width: 1106px){
+    .logo-invert {
+        width: 142px !important;
+    }
+} */
+@media only screen  and (min-width: 1106px) and (max-width: 2000px){
+    .logo-invert {
+        width: 230px !important;
+    }
+}
 mini-footer, .mini-footer-text-container, .mini-footer-text, .mini-footer-link
 , .small-content-logo-footer{
     display: none;
@@ -99,6 +110,7 @@ mini-footer, .mini-footer-text-container, .mini-footer-text, .mini-footer-link
     .min-footer{
         display: block;
         background-color:#ff0048 ;
+        margin-top: 10%;
     }
     .mini-footer, .mini-footer-text-container, .mini-footer-text, .mini-footer-link
 , .small-content-logo-footer{
