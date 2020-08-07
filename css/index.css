@@ -364,6 +364,10 @@ img.whitness-img{
       top: 16%;
       right: 3%;
     }
+    .logo-invert{
+       width: 106px !important;
+       height: auto;
+    }
 }
 
 @media only screen and (min-width: 1107px) and (max-width: 1263px){
@@ -373,7 +377,7 @@ img.whitness-img{
 }  
 @media only screen and (min-width: 937px) and (max-width: 1107px){
     .footer-link{
-        top: 152% !important ;
+        top: 160% !important;
     }
     .footer-text {
         top: 84% !important;
@@ -390,16 +394,60 @@ img.whitness-img{
 @media only screen and (min-width: 798px) and (max-width:  831px){
     .footer-link{
       top: 224% !important ;
+      font-size: 16px !important;
+    }
+    .logo-invert{
+        height: 77px !important;
+        width: auto !important;
+       
+    }
+    .content-logo-footer{
+        top: 88% !important;
+    }
+    .footer-text{
+        font-size: 14px !important;
+        top: 92% !important;
+    }
+    .abonnement-container {
+    margin-top: -8% !important;
     }
 }
+@media only screen and (min-width: 831px) and (max-width:  936px){
+    .footer-link{
+      top: 181% !important;
+      font-size: 16px !important;
+    }
+    .logo-invert{
+        height: 77px !important;
+        width: auto !important;
+       
+    }
+    .content-logo-footer{
+        top: 88% !important;
+    }
+    .footer-text{
+        font-size: 14px !important;
+        top: 92% !important;
+    }
+    .abonnement-container {
+    margin-top: -8% !important;
+    }
+}
+
+
+
+
+
+
+
 @media only screen and (min-width: 624px ) and (max-width:  798px){
     .footer-link{
       top: 383% !important ;
        font-size: 10px !important;
     }
     .footer-text {
-        top: 152%;
-        font-size: 10px !important;
+        top: 105% !important;
+        font-size: 13px !important;
     }
     .content-logo-footer {
         top: 181% !important;
@@ -452,7 +500,7 @@ img.whitness-img{
         margin-top: -7% !important;
     }
     .logo-invert {
-        width: 19vw !important;
+        width: 150px !important;
     }
 }
 @media only screen and (min-width: 741px ) and (max-width:  769px){
@@ -474,14 +522,14 @@ img.whitness-img{
         margin-top: -7% !important;
     }
     .logo-invert {
-        width: 19vw !important;
+         width: 150px !important;
     }
 }
 
 @media only screen and (min-width: 770px ) and (max-width:  800px){
     .footer-link{
      top: 252% !important;
-        font-size: 9px !important;
+        font-size: 16px !important;
 
     }
     /* .footer-text {
@@ -490,30 +538,44 @@ img.whitness-img{
     } */
     .content-logo-footer {
       
-       margin-top: -3%;
+        margin-top: -2%;
         width: 17vw;
     }
     .abonnement-container {
         margin-top: -7% !important;
     }
     .logo-invert {
-        width: 19vw !important;
+        width: 150px !important;
     } 
+    .content-logo-footer {
+        top: 146% !important;
+    }
+    .footer-text {
+    
+   
+    top: 88% !important;
+    font-size: 14px !important;
+    }
+
 }
 @media only screen and (min-width: 1320px ){
     
-    .footer-text {
+    /* .footer-text {
        right: 9% !important;
-    }
-    .logo-invert {
+    } */
+    /* .logo-invert {
         width: 19vw !important;
-    } 
+    }  */
 }
 
 
 /**************/
 #header{
   background-color: #f9f9f9 !important;
+}
+.page-wrap{
+      max-width: 1400px;
+      margin: 0 auto;
 }
 
 
