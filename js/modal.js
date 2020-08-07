@@ -37,4 +37,7 @@ $('.modal-close-abo').on('click', function () {
     $('#abonnement').modal("toggle");
 });
 
+$('.modal-close-phone').on('click', function () {
+    $('#phone-box').modal("toggle");
+});
 
