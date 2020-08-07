@@ -277,7 +277,7 @@ padding-right: 3%
 }
 .abo-content{
 	border: 1px solid;
-	padding: 22px;
+	padding: 15px;
 	border-radius: 8%;
 	width: 263px;
 	padding-left: 0px;
@@ -288,14 +288,20 @@ padding-right: 3%
 	padding-bottom: 62px !important;
 }
 .abo-list-ul{
-	height: 58%;
+	height: 80px;
+	font-family: lato-lightitalic !important;
+	margin-left: -21px;
+}
+.abo-content>hr{
+	background-color: #9c9b9b;
+	margin-left: 12px;
 }
 .abonnement-title{
 	padding-bottom: 22px;
 	padding-left: 44px;
 }
 .underline-red-abo-title{
-	height: 5px;
+	height: 2px;
 	background-color: var(--theme-color-red);
 	border-radius: 31px;
 	width: 60px;
@@ -389,10 +395,10 @@ padding-right: 3%
 	color: #00f0;
 }
 .abo-list{
-	font-family: lato-lightitalic !important;
+
 	font-size: 12px;
 	color: #3a3737;
-	font-family: lato-bold !important;
+	
 }
 .abo-text-b{
 	color: #606060;
@@ -402,7 +408,7 @@ padding-right: 3%
 	font-size: 16px;
 }
 .abo-content{
-height: 295px;
+	height: 233px;
 }
 .p-1-abo{
 	
