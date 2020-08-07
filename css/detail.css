@@ -36,8 +36,7 @@
 }
 .detail-more-card{
 	display: flex;
-	margin-top: 4em;
-	width: 100%;
+	margin-top: 1.3em;
 	flex-wrap: wrap;
 }
 .detail-more-card >div{
@@ -100,7 +99,7 @@
 .text-card-container-header{
 	text-align: right;
 	padding: 2% 5% 0 0%;
-	border-bottom: solid gray;
+	border-bottom: 1.992px solid #858786;
 }
 .main-header-text{
 	color: #ff0048;
@@ -113,8 +112,9 @@
 .all-carousel-img{
 	display: flex;
 	flex-direction: row;
-	width: 57%;
+	width: 84%;
 	margin: 0%;
+	height: auto;
 }
 .carousel-img-element{
 	padding: 2% 3% 3% 0%;
@@ -123,16 +123,18 @@
 	width: 100%;
 }
 .detail-carousel-button-group{
+	/* display: flex;
+	flex-direction: row; */
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 }
 .button-carousel-container{
-	margin: 1%;
+	/* margin: 1%; */
 }
 @media only screen and (max-width: 780px) {
-.detail-more-card >div{
+/* .detail-more-card >div{
 	width: 100%;
-	}
+	} */
 .carousel-top-legend-container{
 	font-size: 5vw;
 	}
@@ -140,6 +142,10 @@
 @media only screen and (max-width: 350px) {
 .carousel-top-legend-container{
 	font-size: 6vw;
+	}
+	.detail-carousel-container{
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
 @media only screen and (max-width: 936px) {
@@ -155,3 +161,150 @@
 	margin-top: 15px;
 	}
 }
+
+
+
+
+
+/* debut */
+.det-carousel-container{
+	padding: 0px 32px 50px 34px;
+}
+
+.d-block {
+	width: 100%;
+}
+.carousel-text-legend-container{
+	width: 30%;
+}
+.carousel-image-container {
+	width: 70%;
+}
+.carousel-img{
+	width: 143%;
+}
+
+.text-card-container{
+	background-color: #e9eaec;
+}
+
+@media only screen and (min-width: 831px) {
+.det-carousel-container{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 830px) {
+	.det-carousel-container{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.d-block {
+	width: 100%;
+	}
+	.carousel-text-legend-container{
+		width: inherit;
+	}
+	.carousel-image-container {
+		width: inherit;
+	}
+	.carousel-img{
+		width: 143%;
+	} 
+	.all-carousel-img{
+		width: 147.2%;
+	}
+}
+
+@media only screen and (min-width: 444px ) and (max-width:  717px){
+	.detail-more-card > div{
+		width: 50%;
+		padding: 1%;
+	}
+}
+@media only screen and (min-width: 717px ) and (max-width:  830px){
+	.detail-more-card > div{
+		width: 33%;
+		padding: 1%;
+	}
+}
+.l-1>button{
+	font-size: 7px;
+}
+.contacter-le-proprio-line-h{
+	line-height: 1;
+}
+.modal-phone-underline-red{
+	margin-left: 3px !important;
+	width: 61px !important;
+	height: 3px !important;
+	background-color: var(--theme-color-red);
+}
+.phone-number-container{
+	padding: 21px;
+	text-align: center;
+	font-size: 16px;
+}
+.detail-box-body{
+	border-radius: 0px !important;
+	width: 325px;
+	margin-left: 66px;
+}
+.voir-plus{
+	z-index: 2;
+	position: absolute;
+	text-decoration: underline;
+}
+.modal-lg-abo{
+	max-width: inherit !important;
+}
+.abo-container{
+	display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.abo-container>div{
+	border: 1px solid;
+	padding: 22px;
+	border-radius: 8%;
+	width: 25%;
+}
+.abo-container>div>div{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 7%;
+}
+.abo-container>div>ul{
+	height: 58%;
+}
+.abonnement-title{
+	padding-bottom: 42px;
+	padding-left: 44px;
+}
+.underline-red-abo-title{
+	height: 5px;
+	background-color: var(--theme-color-red);
+	border-radius: 31px;
+	width: 60px;
+}
+.abo-modal-body{
+	padding-bottom: 42px;
+}
+@media only screen and (min-width: 0px ) and (max-width:  775px){
+	.abo-container{
+		display: flex;
+		flex-flow: column;
+	}
+	.abo-container > div {
+    width: 50%;
+    margin-left: 26%;
+}
+}
+/* .clear-fix-abox{
+	border: none !important;
+} */
+
+

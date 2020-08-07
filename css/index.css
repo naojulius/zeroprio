@@ -405,7 +405,7 @@ img.whitness-img{
         top: 181% !important;
     }
 }
-@media only screen and (min-width: 509px ) and (max-width:  622px){
+@media only screen and (min-width: 508px ) and (max-width:  622px){
     .footer-link{
       top: 398% !important;
         font-size: 9px !important;

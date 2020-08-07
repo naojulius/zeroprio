@@ -17,6 +17,9 @@ $("#modal-popup").on('click', function () {
 $("#modal-popup2").on('click', function () {
     $("#sign-up").modal();
 });
+$("#phone-button").on('click', function () {
+    $("#phone-box").modal();
+});
 
 $('#log-in').on('hidden.bs.modal', function () {
     $(this).find('#login-form').trigger('reset');
@@ -24,5 +27,7 @@ $('#log-in').on('hidden.bs.modal', function () {
 $('#sign-up').on('hidden.bs.modal', function () {
     $(this).find('#signup-form').trigger('reset');
 });
+
+$('#abonnement').modal();
 
 
