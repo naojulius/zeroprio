@@ -6,7 +6,7 @@
 }
 .create-detail-alert-container{
 	display:flex;
-	padding: 50px 32px 50px 34px;
+	padding: 28px 32px 50px 34px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-left: 3.5%;
@@ -20,6 +20,7 @@
 } 
 .ref-text{
 	position: absolute;
+	margin-top: -2px;
 }
 .position-relative{
 	position: relative;
@@ -249,6 +250,10 @@
 	width: 61px !important;
 	height: 3px !important;
 	background-color: var(--theme-color-red);
+	margin-top: 1.5%;
+}
+.btn-detail-1{
+	margin: 1% !important;
 }
 .phone-number-container{
 	padding: 21px;
@@ -383,7 +388,7 @@ padding-right: 3%
 	background-color: rgba(255, 255, 255, 0.9) !important;
 }
 .detail-box-body-text{
-	background-color: rgba(255, 255, 255, 0.8) !important;
+	background-color: rgba(255, 255, 255, 0.9) !important;
 }
 .abonment-title{
 	font-size: 18pt !important;
