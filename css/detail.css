@@ -307,4 +307,37 @@ flex-wrap: wrap;
 	border: none !important;
 } */
 
+/*****by mi*******/
 
+/**by mi**/
+
+
+#container_menu_ppal{
+	width: 80% !important;
+	text-align: center;
+	margin: 0% 10% !important;
+}
+
+.text-card-container {
+    background-color: #e8eaeb !important;
+    font-family: lato-light !important;
+    color: #606060 !important;
+}
+
+.text-card-container {
+    background-color: #e8eaeb !important;
+}
+
+.text-card-small {
+	 color: #606060;
+	  font-family: lato-light;
+}
+.text-card-container-header{
+
+	border-bottom: 1.992px solid #828383;
+	margin:2%;
+	}
+	.price{
+		color: var(--theme-color-red);
+		font-family: lato-heavy;
+		}
