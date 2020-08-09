@@ -426,10 +426,11 @@ height: min-content !important;
 	opacity: 0 !important;
 }
 .btn-detail-1{
-	font-size: 10px !important;
+	font-size: 13px !important;
 }
 .btn-detail-1-container{
 	display: flex !important;
+	justify-content: center;
 	/*flex-wrap: wrap;*/
 }
 
