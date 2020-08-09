@@ -270,7 +270,8 @@
 	text-decoration: underline;
 }
 .modal-lg-abo{
-	max-width: 1000px;
+	/*max-width: 1000px;*/
+	max-width: 904px;
 }
 .abo-container{
 	display: flex;
@@ -283,22 +284,30 @@ padding-right: 3%
 	border: 1px solid;
 	padding: 15px;
 	border-radius: 8%;
-	width: 263px;
+	width: 224px;
 	padding-left: 0px;
 }
 .abo-button-abonner{
 	display: flex;
 	justify-content: center;
 	padding-bottom: 62px !important;
+	margin-top: -16px;
 }
 .abo-list-ul{
 	height: 80px;
 	font-family: lato-lightitalic !important;
-	margin-left: -21px;
+	margin-left: -36px;
+}
+.abo-list-ul-2{
+	height: 80px;
+	font-family: lato-lightitalic !important;
+	margin-left: -13px;
 }
 .abo-content>hr{
 	background-color: #9c9b9b;
-	margin-left: 12px;
+	/*margin-left: 12px;*/
+	margin-left: 3px;
+	width: 104%;
 }
 .abonnement-title{
 	padding-bottom: 22px;
@@ -412,7 +421,11 @@ background-color: #f9f9f9 !important;
 	padding-bottom: 4%;
 }
 .abo-list::marker{
-	color: #00f0;
+	color: #00f0 !important;
+	opacity: 0 !important;
+}
+.displayed-none{
+	display: none !important;
 }
 .abo-list{
 
@@ -428,7 +441,8 @@ background-color: #f9f9f9 !important;
 	font-size: 16px;
 }
 .abo-content{
-	height: 233px;
+	/*height: 233px;*/
+	height: 215px;
 }
 .p-1-abo{
 	
