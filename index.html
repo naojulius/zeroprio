@@ -48,6 +48,100 @@
         </ul>
     </nav>
     <!-- Modal -->
+
+    <div id="body-content">
+            <div class="landing">
+                <div class="page-wrap">
+                    <div class="legend-container heavy-italic">
+                        <div style="padding-bottom: 16px;">ZEproprio.com</div>
+                        <div>Direct particulier:</div>
+                        Economisez en moyenne 8000 &euro; pour un<br>
+                        achat et 1000 &euro; pour une location
+                    </div>
+                    <form method="" action="" id="submit_form">
+                        <div class="search-field-container p-3">
+                            <h5 class="text-white p-2 lato-black">Trouvez votre logement</h5>
+                            <div class="d-flex d-inline-flex justify-content-arround w-100">
+                                <input name="type" id="type" type="text" hidden="true" required class="form-control"
+                                    value="achat">
+                                <div id="achat" class="center w-100  underlined-white text-white lato-bold">
+                                    <h6>Achat</h6>
+                                </div>
+                                <div id="location" class="center w-100 underlined-gray text-white lato-light">
+                                    <h6>Location</h6>
+                                </div>
+                            </div>
+                            <div class="p-3" style="padding-bottom: 0px !important;">
+                                <div class="form-group p-2" style="margin-bottom: 0.25rem;">
+                                    <input name="place" required="true" placeholder="Saisir un lieu" type="text"
+                                        class="form-control lato-light" id="place">
+                                </div>
+                                <div class="p-2">
+                                    <div class="custom-select form-group p-2 lato-light" id="type-bien-container">
+                                        <select name="type_bien" required id="type_bien" class="form-control">
+                                            <option value="0">Choisir un type de bien</option>
+                                            <option value="1">Bien 1</option>
+                                            <option value="2">Bien 2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="d-flex  d-inline-flex justify-content-between ml w-100">
+                                        <div class="form-group d-flex d-inline-flex w-48">
+                                            <div class="custom-select lato-light" style="line-height: 2;">
+                                                <select name="piece" required id="piece" class="form-control ">
+                                                    <option value="0">Pièces</option>
+                                                    <option value="1">Piece 1</option>
+                                                    <option value="2">Piece 2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group d-flex d-inline-flex w-48">
+                                            <div class="custom-select " style="line-height: 2;">
+                                                <select required name="chambre" id="chambre"
+                                                    class=" form-control lato-light">
+                                                    <option value="0">Chambres</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-inline-flex justify-content-between w-100">
+                                        <div class="input-group mb-3 p-1 w-100">
+                                            <input type="text" class="form-control lato-light" name="surface_min"
+                                                placeholder="Surface min." type="text" id="surface_min">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text lato-bold">m²</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-group mb-3 p-1 w-100">
+                                            <input type="text" class="form-control lato-light" name="prix_max"
+                                                placeholder="Prix maximum" type="text" id="prix_max">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text lato-bold">€</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="justify-content-center d-flex">
+                                        <button id="submit_form_button" type="button"
+                                            class=" w-75 btn btn-outline-danger lato-bold">RECHERCHER</button>
+                                    </div>
+                                    <div class="justify-content-center d-flex alert-link-container p-3" style="padding-bottom: 0px !important;">
+                                        <a href="annonce.html" class="center nav-link">
+                                            <p class="text-white lato-bold" id="alerte">
+                                                Créer une alerte<i class="flaticon-047-bell"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     <div class="page-wrap">
         <div class="modal box-modal" id="log-in">
             <div class="modal-dialog modal-sm-login modal_login">
@@ -142,95 +236,7 @@
                 </div>
             </div>
         </div>
-        <div id="body-content">
-            <div class="landing">
-                <div class="legend-container heavy-italic">
-                    <div style="padding-bottom: 16px;">ZEproprio.com</div>
-                    <div>Direct particulier:</div>
-                    Economisez en moyenne 8000 &euro; pour un<br>
-                    achat et 1000 &euro; pour une location
-                </div>
-                <form method="" action="" id="submit_form">
-                    <div class="search-field-container p-3">
-                        <h5 class="text-white p-2 lato-black">Trouvez votre logement</h5>
-                        <div class="d-flex d-inline-flex justify-content-arround w-100">
-                            <input name="type" id="type" type="text" hidden="true" required class="form-control"
-                                value="achat">
-                            <div id="achat" class="center w-100  underlined-white text-white lato-bold">
-                                <h6>Achat</h6>
-                            </div>
-                            <div id="location" class="center w-100 underlined-gray text-white lato-light">
-                                <h6>Location</h6>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="form-group p-2" style="margin-bottom: 0.25rem;">
-                                <input name="place" required="true" placeholder="Saisir un lieu" type="text"
-                                    class="form-control lato-light" id="place">
-                            </div>
-                            <div class="p-2">
-                                <div class="custom-select form-group p-2 lato-light" id="type-bien-container">
-                                    <select name="type_bien" required id="type_bien" class="form-control">
-                                        <option value="0">Choisir un type de bien</option>
-                                        <option value="1">Bien 1</option>
-                                        <option value="2">Bien 2</option>
-                                    </select>
-                                </div>
 
-                                <div class="d-flex  d-inline-flex justify-content-between ml w-100">
-                                    <div class="form-group d-flex d-inline-flex w-48">
-                                        <div class="custom-select lato-light" style="line-height: 2;">
-                                            <select name="piece" required id="piece" class="form-control ">
-                                                <option value="0">Pièces</option>
-                                                <option value="1">Piece 1</option>
-                                                <option value="2">Piece 2</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group d-flex d-inline-flex w-48">
-                                        <div class="custom-select " style="line-height: 2;">
-                                            <select required name="chambre" id="chambre"
-                                                class=" form-control lato-light">
-                                                <option value="0">Chambres</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex d-inline-flex justify-content-between w-100">
-                                    <div class="input-group mb-3 p-1 w-100">
-                                        <input type="text" class="form-control lato-light" name="surface_min"
-                                            placeholder="Surface min." type="text" id="surface_min">
-                                        <div class="input-group-append">
-                                            <span class="input-group-text lato-bold">m²</span>
-                                        </div>
-                                    </div>
-                                    <div class="input-group mb-3 p-1 w-100">
-                                        <input type="text" class="form-control lato-light" name="prix_max"
-                                            placeholder="Prix maximum" type="text" id="prix_max">
-                                        <div class="input-group-append">
-                                            <span class="input-group-text lato-bold">€</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="justify-content-center d-flex">
-                                    <button id="submit_form_button" type="button"
-                                        class=" w-75 btn btn-outline-danger lato-bold">RECHERCHER</button>
-                                </div>
-                                <div class="justify-content-center d-flex alert-link-container p-3">
-                                    <a href="#" class="center nav-link">
-                                        <p class="text-white lato-bold" id="alerte">
-                                            Créer une alerte<i class="flaticon-047-bell"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                </form>
-            </div>
-        </div>
         <div class="justify-content-center w-100 d-inline-flex d-flex">
             <div class="w-15 t-line-container">
                 <div class="t-line-side"></div>

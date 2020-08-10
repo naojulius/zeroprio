@@ -467,6 +467,7 @@ height: min-content !important;
 .carousel-img-element > img {
     width: 100px !important;
     height: 100px;
+    object-fit: cover;
 }
 .carousel-text-legend-container{
 	margin-top: -1% !important;

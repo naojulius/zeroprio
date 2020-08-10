@@ -9,6 +9,11 @@
     justify-content: center;
     
 }
+
+a.annonce-card-content {
+  text-decoration: none;
+}
+
 .annonces-details-price{
     padding: 15px 0px 0px 0px;
 }
